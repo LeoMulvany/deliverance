@@ -5,15 +5,15 @@
     <title>Cat Videos - DVD listings</title>
     <meta charset="utf-8">
     <style>
-        @import "css/basic.css";
-        @import "css/nav.css";
-        @import "css/footer.css";
+        @import "public/css/basic.css";
+        @import "public/css/nav.css";
+        @import "public/css/footer.css";
     </style>
 </head>
 <body>
 
 <header>
-    <img src="images/cat-videos-logo.jpg" alt="logo">
+    <img src="public/images/cat-videos-logo.jpg" alt="logo">
 </header>
 
 <nav>
@@ -66,7 +66,7 @@
         <td>&euro; 18000</td>
         <td>5 %</td>
         <td>1</td>
-        <td><img src="images/starsHalf.png" alt="half star"></td>
+        <td><img src="public/images/starsHalf.png" alt="half star"></td>
     </tr>
 
     <tr>
@@ -76,7 +76,7 @@
         <td>&euro; 35000</td>
         <td>90 %</td>
         <td>77</td>
-        <td><img src="images/stars5.png" alt="5 star"></td>
+        <td><img src="public/images/stars5.png" alt="5 star"></td>
     </tr>
 
     <tr>
@@ -86,7 +86,7 @@
         <td>&euro; 15999</td>
         <td>50 %</td>
         <td>5</td>
-        <td><img src="images/stars3.png" alt="3 star"></td>
+        <td><img src="public/images/stars3.png" alt="3 star"></td>
     </tr>
 
     <tr>
@@ -106,7 +106,7 @@
         <td>&euro; 19999</td>
         <td>95 %</td>
         <td>201</td>
-        <td><img src="images/stars5.png" alt="5 star"></td>
+        <td><img src="public/images/stars5.png" alt="5 star"></td>
     </tr>
 </table>
 
