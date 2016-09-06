@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Cat Videos - about</title>
+    <title>Cat Videos - home</title>
     <meta charset="utf-8">
     <style>
         @import "css/basic.css";
@@ -18,42 +18,33 @@
 <nav>
     <ul>
         <li>
-            <a href="index.html">Home</a>
+            <a href="index.php" class="current_page">Home</a>
         </li>
 
         <li>
-            <a href="about.html" class="current_page">About Us</a>
+            <a href="about.php">About Us</a>
         </li>
 
         <li>
-            <a href="list.html">Cat Videos</a>
+            <a href="list.php">Cat Videos</a>
         </li>
 
         <li>
-            <a href="contact.html">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
         </li>
 
         <li>
-            <a href="sitemap.html">Site Map</a>
+            <a href="sitemap.php">Site Map</a>
         </li>
     </ul>
 </nav>
 
 <h1>
-    About us
+    Welcome to Cat Videos Home Page
 </h1>
 
 <p>
-    We are CatVideosAsAFormOfTorture.com.
-</p>
-<p>
-    We are based in Guantanamo, Cuba.
-</p>
-<p>
-    We were established in 2001.
-</p>
-<p>
-    We design cat videos to break your spirit.
+    This site offers you the chance to purchase cat videos of mass destruction...
 </p>
 
 
