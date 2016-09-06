@@ -1,20 +1,9 @@
-<!doctype html>
-// changing the website logo and links to Cat Videos. Just a holder for something better later //
-<html lang="en">
-<head>
-    <title>Cat Videos - DVD listings</title>
-    <meta charset="utf-8">
-    <style>
-        @import "public/css/basic.css";
-        @import "public/css/nav.css";
-        @import "public/css/footer.css";
-    </style>
-</head>
-<body>
-
-<header>
-    <img src="public/images/cat-videos-logo.jpg" alt="logo">
-</header>
+<?php
+require_once __DIR__ . '/header1.inc.php';
+print '<title>Cat Videos - about page</title>';
+require_once __DIR__ . '/header2.inc.php';
+//-------------------------------------------
+?>
 
 <nav>
     <ul>
@@ -66,7 +55,7 @@
         <td>&euro; 18000</td>
         <td>5 %</td>
         <td>1</td>
-        <td><img src="public/images/starsHalf.png" alt="half star"></td>
+        <td><img src="../public/images/starsHalf.png" alt="half star"></td>
     </tr>
 
     <tr>
@@ -76,7 +65,7 @@
         <td>&euro; 35000</td>
         <td>90 %</td>
         <td>77</td>
-        <td><img src="public/images/stars5.png" alt="5 star"></td>
+        <td><img src="../public/images/stars5.png" alt="5 star"></td>
     </tr>
 
     <tr>
@@ -86,7 +75,7 @@
         <td>&euro; 15999</td>
         <td>50 %</td>
         <td>5</td>
-        <td><img src="public/images/stars3.png" alt="3 star"></td>
+        <td><img src="../public/images/stars3.png" alt="3 star"></td>
     </tr>
 
     <tr>
@@ -106,13 +95,11 @@
         <td>&euro; 19999</td>
         <td>95 %</td>
         <td>201</td>
-        <td><img src="public/images/stars5.png" alt="5 star"></td>
+        <td><img src="../public/images/stars5.png" alt="5 star"></td>
     </tr>
 </table>
 
-<footer>
-    2016 &copy; A Shameless Ripoff production
-</footer>
-
-</body>
-</html>
+<?php
+//-------------------------------------------
+require_once __DIR__ . '/footer.inc.php';
+//  don't close the PHP tags

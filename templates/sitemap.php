@@ -1,19 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Cat Videos - sitemap</title>
-    <meta charset="utf-8">
-    <style>
-        @import "public/css/basic.css";
-        @import "public/css/nav.css";
-        @import "public/css/footer.css";
-    </style>
-</head>
-<body>
-
-<header>
-    <img src="public/images/cat-videos-logo.jpg" alt="logo">
-</header>
+<?php
+require_once __DIR__ . '/header1.inc.php';
+print '<title>Cat Videos - about page</title>';
+require_once __DIR__ . '/header2.inc.php';
+//-------------------------------------------
+?>
 
 
 <nav>
@@ -53,9 +43,7 @@
 </ul>
 
 
-<footer>
-    2016 &copy; A Shameless Ripoff production
-</footer>
-
-</body>
-</html>
+<?php
+//-------------------------------------------
+require_once __DIR__ . '/footer.inc.php';
+//  don't close the PHP tags
