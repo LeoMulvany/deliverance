@@ -1,33 +1,8 @@
 <?php
-require_once __DIR__ . '/header1.inc.php';
-print '<title>Cat Videos - about page</title>';
-require_once __DIR__ . '/header2.inc.php';
+require_once __DIR__ . '/../templates/header.inc.php';
+require_once __DIR__ . '/../templates/nav.inc.php';
 //-------------------------------------------
 ?>
-
-<nav>
-    <ul>
-        <li>
-            <a href="index.php">Home</a>
-        </li>
-
-        <li>
-            <a href="about.php">About Us</a>
-        </li>
-
-        <li>
-            <a href="list.php">DVD ratings</a>
-        </li>
-
-        <li>
-            <a href="contact.php" class="current_page">Contact Us</a>
-        </li>
-
-        <li>
-            <a href="sitemap.php">Site Map</a>
-        </li>
-    </ul>
-</nav>
 
 <h1>
     Contact us
@@ -35,27 +10,29 @@ require_once __DIR__ . '/header2.inc.php';
 
 <h3>Address</h3>
 <p>
-    CatVideosAsAFormOfTorture.com,
+    Stroke City Motorbikes,
 <p>
-    c/o Secret Lab #4,
+    98 Strand Rd,
     <br/>
-    Guamtanamo Bay Holiday Camp,
+    Derry City,
     <br/>
-    Guantanamo,
+    Derry,
     <br/>
-   Cuba
+    Northern Ireland
+    <br/>
+    BT48 RNN
     <br/>
 
 </p>
 
 <h3>Telephone</h3>
 <p>
-    01 - 234 5678
+    +44 28 7136 5151
 </p>
 
 <h3>Email</h3>
 <p>
-    <a href="mailto:enquiries@CatVideosAsAFormOfTorture.com">enquiries@CatVideosAsAFormOfTorture.com</a>
+    <a href="mailto:enquiries@StrokeCityMotorbikes.com">enquiries@strokecitymotorbikes.com</a>
 </p>
 
 

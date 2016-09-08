@@ -1,34 +1,8 @@
 <?php
-require_once __DIR__ . '/header1.inc.php';
-print '<title>Cat Videos - about page</title>';
-require_once __DIR__ . '/header2.inc.php';
+require_once __DIR__ . '/../templates/header.inc.php';
+require_once __DIR__ . '/../templates/nav.inc.php';
 //-------------------------------------------
 ?>
-
-
-<nav>
-    <ul>
-        <li>
-            <a href="index.php">Home</a>
-        </li>
-
-        <li>
-            <a href="about.php">About Us</a>
-        </li>
-
-        <li>
-            <a href="list.php">Cat Videos</a>
-        </li>
-
-        <li>
-            <a href="contact.php">Contact Us</a>
-        </li>
-
-        <li>
-            <a href="sitemap.php" class="current_page">Site Map</a>
-        </li>
-    </ul>
-</nav>
 
 <h1>
     Site Map
@@ -37,7 +11,7 @@ require_once __DIR__ . '/header2.inc.php';
 <ul>
     <li><a href="index.php">Home</a>
     <li><a href="about.php">About us</a>
-    <li><a href="list.php">Cat Videos</a>
+    <li><a href="list.php">Motorbikes for Sale</a>
     <li><a href="contact.php">Contact us</a>
     <li><a href="sitemap.php">Site Map</a>
 </ul>
