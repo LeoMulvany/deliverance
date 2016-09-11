@@ -1,49 +1,23 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Leo
- * Date: 07/09/2016
- * Time: 15:36
- */
-
-//-----------------------------
-if (empty($indexLinkStyle)){
-    $indexLinkStyle = '';
-}
-if (empty($aboutLinkStyle)){
-    $aboutLinkStyle = '';
-}
-if (empty($listLinkStyle)){
-    $listLinkStyle = '';
-}
-if (empty($contactLinkStyle)){
-    $contactLinkStyle = '';
-}
-if (empty($sitemapLinkStyle)){
-    $sitemapLinkStyle = '';
-}
-?>
-
 <nav>
     <ul>
         <li>
-            <a href="index.php" class="<?= $indexLinkStyle ?>">Home</a>
+            <a href="index.php" class="current_page">Home</a>
         </li>
 
         <li>
-            <a href="index.php?action=about" class="<?= $aboutLinkStyle ?>">About Us</a>
+            <a href="about.php?action=about">About Us</a>
         </li>
 
         <li>
-            <a href="index.php?action=list" class="<?= $listLinkStyle ?>">Motorbikes for Sale</a>
+            <a href="list.php?action=list">List of Motorbikes</a>
         </li>
 
         <li>
-            <a href="index.php?action=contact" class="<?= $contactLinkStyle ?>">Contact Us</a>
+            <a href="contact.php?action=contact">Contact Us</a>
         </li>
 
         <li>
-            <a href="index.php?action=sitemap" class="<?= $sitemapLinkStyle ?>">Site Map</a>
+            <a href="register.php?action=register">Register</a>
         </li>
     </ul>
 </nav>

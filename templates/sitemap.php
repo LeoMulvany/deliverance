@@ -4,17 +4,9 @@ require_once __DIR__ . '/../templates/nav.inc.php';
 //-------------------------------------------
 ?>
 
-<h1>
-    Site Map
-</h1>
 
-<ul>
-    <li><a href="index.php">Home</a>
-    <li><a href="about.php">About us</a>
-    <li><a href="list.php">Motorbikes for Sale</a>
-    <li><a href="contact.php">Contact us</a>
-    <li><a href="sitemap.php">Site Map</a>
-</ul>
+
+<h3>sitemap was here</h3>
 
 
 <?php
