@@ -21,14 +21,14 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT UserID, Username, Password, EmailAddress, Admin FROM users";
+$sql = "SELECT Make, Model, EngineSize, Price, Image FROM bikes";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-    echo "<table><tr><th>User ID</th><th>Username</th><th>Password</th><th>Email</th><th>Admin</th></tr>";
+    echo "<table><tr><th>Make</th><th>Model</th><th>Engine Size</th><th>Price</th><th>Image</th></tr>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<tr><td>" . $row["UserID"]. "</td><td>" . $row["Username"]. "</td><td>" . $row["Password"]. "</td><td>" . $row["EmailAddress"]. "</td><td>" . $row["Admin"]."</td></tr>";
+        echo "<tr><td>" . $row["Make"]. "</td><td>" . $row["Model"]. "</td><td>" . $row["EngineSize"]. "</td><td>" . $row["Price"]. "</td><td>" . $row["Image"]."</td></tr>";
     }
     echo "</table>";
 } else {
